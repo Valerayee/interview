@@ -3,7 +3,8 @@
 
 int main() {
     setlocale(LC_ALL, "");
-    const char name [] = "Valery";
+    char name [20] = "";
+    scanf("%s", &name);
     printf("Привет, %s!\n", name);
     return 0;
 }
