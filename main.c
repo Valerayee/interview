@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    const char name [] = "Valery";
-    printf("Hello, %s!\n", name);    ;
+    char name [20] = "";
+    scanf("%s", &name);
+    printf("Hello, %s!\n", name);
     return 0;
 }
